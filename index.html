@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<head>
+<script src="/assets/jquery.js"></script>
+<link href="https://fonts.googleapis.com/css?family=Anton|Architects+Daughter|Caveat|Gochi+Hand|Patua+One" rel='stylesheet' type='text/css'>
+<link href="/style.css" rel="stylesheet">
+</head>
+
+<body>
+<h1>JMP's Widget Wonderland</h1>
+<h2>A Wondrous Land of Widgets!</h2>
+<div class="eyeglass">
+  <p>Stylin' Eyeglass Widget <span class="price">$259</span><br />
+  <small>Do you want all your worries to disappear? Do you want own a 10M house on the water? Well these can't help with that, but they are some STYLIN' eyeglass widgets! </small></p>
+</div>
+
+<div class="bowtie">
+  <p>The Bowtie IS BACK! <span class="price">$55</span><br />
+  <small>Don't look now (but please look!), but the BOWTIE IS BACK!! Get your widget before it's too late. Made with real fabric, by real people, for real customers!!</small></p>
+</div>
+  
+<div class="buttonup">
+  <p>Button-Ups on Button-Ups on Button-Ups <span class="price">$73</span><br />
+  <small>Stacks on stacks on stacks....of premium button-ups! Come one come all, because we have EVERY color you need. Quick now....</small></p>
+</div>
+
+<script>
+  $('div').on('click', function() {
+      $(this).toggleClass('show-description');
+  });
+</script>
+
+</body>
